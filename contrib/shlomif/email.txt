@@ -1,0 +1,15 @@
+
+Hi Dr. Resnik!
+
+Attached is a Perl module (ShlomifConvCell.pm) I wrote to use your module to 
+convert numbers in international notation. I also included two .pl scripts I 
+used to invoke it.
+
+I hereby license them under the MIT X11 license, which enables transfer of 
+ownership and relicensing under any other license.
+
+Regards,
+
+        Shlomi Fish
+
+

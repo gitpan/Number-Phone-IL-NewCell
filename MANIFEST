@@ -3,7 +3,13 @@ Makefile.PL
 MANIFEST
 NewCell.pm
 test.pl
-cellnum.pl  
-celltext.pl
+demo/cellnum.pl                               sample program
+demo/celltext.pl                              sample program
+demo/celltext.pl                              sample program
+demo/celldir.pl
 README
+contrib/shlomif/email.txt
+contrib/shlomif/conv-cell-phone.pl
+contrib/shlomif/ShlomifConvCell.pm
+contrib/shlomif/vim-conv.pl
 META.yml                                 Module meta-data (added by MakeMaker)

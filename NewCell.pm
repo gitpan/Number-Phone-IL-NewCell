@@ -15,7 +15,7 @@ package Number::Phone::IL::NewCell;
 use strict ;
 use Exporter;
 use vars qw(@EXPORT_OK $VERSION  %ARGS);
-$VERSION = '0.1';
+$VERSION = '0.2';
 
 @EXPORT_OK = qw(Old2New new);
 
@@ -109,7 +109,8 @@ This program was poorly tested !!!!
 As this is a run once program, I don't think that I will fix bugs or
 release new versions.
 
-There is no treatment for international prefix like +972-56-444222.
+If you need treatment for international prefix like +972-56-444222
+you may use programs and module conributed by Shlomi Fish.
 
 B<IF YOU USE THIS PROGRAM, YOU DO THIS AT YOUR OWN RISK !!!.>
 
