@@ -1,0 +1,52 @@
+NAME
+     Number::Phone::IL::NewCell - New cellular phone numbers in Israel.
+
+SYNOPSIS
+            use Number::Phone::IL::NewCell;
+
+            my $a=Number::Phone::IL::NewCell->new;
+
+            $a->Old2New('055-1231456');
+
+DESCRIPTION
+    This modules can be used to replace cellular phone numbers according to
+    April 2004 scheme in Israel.
+
+METHODS
+    1   Old2New(oldnumber)
+
+        This method assigns the old cellular phone number to the object.
+
+PROPERTIES
+        1   $->{result}
+
+            The result of number conversion. If the number was not
+            identified as a valid number according to the Scheme the old
+            number will be in the result.
+
+        2   $OldPrix2New a hash reference to the number change scheme.
+
+BUGS
+            This program was poorly tested !!!!
+
+            As this is a run once program, I don't think that I will fix
+            bugs or release new versions.
+
+            There is no treatment for international prefix like
+            +972-56-444222.
+
+            IF YOU USE THIS PROGRAM, YOU DO THIS AT YOUR OWN RISK !!!.
+
+            Make backup before you run this program !!!!
+
+AUTHOR
+            Oded S. Resnik RAZ Information Systems, razinf@cpan.org,
+            raz@raz.co.il.
+
+COPYRIGHT
+            Copyright (c) 2004 RAZ Information Systems Ltd.
+            http://www.raz.co.il/
+
+            This package is distributed under the same terms as Perl itself,
+            see the Artistic License on Perl's home page.
+
